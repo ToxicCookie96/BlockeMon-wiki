@@ -6,7 +6,7 @@ hero:
   text: "The Ultimate Cobblemon Frontier Adventure"
   tagline: "Forge your path, tame the wild, and survive the blocky unknown."
   image:
-    src: /public/logo.png
+    src: /logo.png
     alt: BlockéMon Logo
   actions:
     - theme: brand
