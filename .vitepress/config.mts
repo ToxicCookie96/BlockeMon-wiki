@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
-  // This keeps the site under the /blockemon/ subpath
-  base: '/blockemon/', 
+  // FIX: This must match your repo name: BlockeMon-wiki
+  base: '/BlockeMon-wiki/', 
   
   title: 'BlockéMon - Wiki',
   description: 'Official Expedition Guide for BlockéMon Frontier',
@@ -11,8 +11,8 @@ export default defineConfig({
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
 
   themeConfig: {
-    // Correctly points to your actual home folder
-    logoLink: '/blockemon/eng/', 
+    // logoLink should generally point to the root of your site
+    logoLink: '/', 
 
     socialLinks: [
       { icon: 'discord', link: 'https://discord.com/invite/y95wNdaeXZ' },
@@ -20,7 +20,6 @@ export default defineConfig({
     ],
 
     nav: [
-      // Points to docs/eng/index.md
       { text: 'Home', link: '/eng/' }
     ],
 
@@ -28,7 +27,6 @@ export default defineConfig({
       {
         text: 'Getting Started',
         items: [
-          // All links now correctly reference the 'eng' subfolder
           { text: 'Home', link: '/eng/' },
           { text: 'Rules', link: '/eng/rules' },
           { text: 'Installation', link: '/eng/installation' },
