@@ -15,7 +15,7 @@ export default defineConfig({
     logoLink: '/', 
 
     socialLinks: [
-      { icon: 'discord', link: 'https://discord.com/invite/y95wNdaeXZ' },
+      { icon: 'discord', link: 'https://discord.gg/TDBcpqBxvZ' },
       { icon: 'github', link: 'https://github.com/ToxicCookie96/BlockeMon-wiki' }
     ],
 
