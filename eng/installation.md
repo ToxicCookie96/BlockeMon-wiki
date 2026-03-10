@@ -28,7 +28,9 @@ Ensure **Minecraft Java Edition** is installed and has been launched at least on
 Download the official BlockéMon Frontier configuration archive below. This manifest contains the logic required to render the custom biomes and entities.
 
 <div class="action-container">
-  <a class="VPButton brand download-btn" href="/blockemon/data/modpac.zip" download>
+  <a class="VPButton brand download-btn" 
+     href="https://drive.google.com/file/d/10AAzrbs-HpE9u1kC3U1v4wMwZ2SPIQa0/view?usp=drive_link" 
+     target="_blank">
     🚀 Click Here to Download Mod File (.zip)
   </a>
 </div>
