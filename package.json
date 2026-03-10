@@ -1,0 +1,15 @@
+{
+  "name": "vitepress-blockemon",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "docs:blockemon": "vitepress dev . --base /blockemon/",
+    "docs:dev": "vitepress dev .",
+    "docs:build": "vitepress build .",
+    "docs:preview": "vitepress preview ."
+  },
+  "dependencies": {
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.22"
+  }
+}
